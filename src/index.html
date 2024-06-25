@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniPwd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <input type="password" id="thePwd" class="input-box" style="text-align: center;">
+        <div class="symbol">+</div>
+        <input type="text" id="genLabel" class="input-box" style="text-align: center;">
+        <div class="symbol">=</div>
+        <input type="password" id="genPwd" class="input-box" style="text-align: center;" readonly>
+        <div class="button-container">
+            <button id="toggleButton" class="show">Show</button>
+            <button id="copyButton">Copy</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

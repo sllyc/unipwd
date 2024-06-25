@@ -1,0 +1,81 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.input-box {
+    width: 400px;
+    height: 60px;
+    margin: 20px 0;
+    padding: 10px;
+    border: 4px solid black;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.input-box:focus {
+    outline: none;
+    border: 4px solid black;
+}
+
+.symbol {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 60px;
+    width: 100px;
+    margin: 20px 10px;
+    font-size: 25px;
+    cursor: pointer;
+    border: 4px solid black;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#toggleButton.show {
+    background-color: white;
+    color: black;
+}
+
+#toggleButton.show:hover {
+    background-color: black;
+    color: white;
+}
+
+#toggleButton.hide {
+    background-color: black;
+    color: white;
+}
+
+#toggleButton.hide:hover {
+    background-color: white;
+    color: black;
+}
+
+.error {
+    border-color: red;
+    color: red;
+}
